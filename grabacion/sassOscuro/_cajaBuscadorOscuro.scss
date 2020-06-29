@@ -1,0 +1,89 @@
+.buscador {
+    position: relative;
+    display: flex;
+    margin: 0px 140px 64px 100px;
+    width: 1200px;
+    height: 99px;
+    background: $color-fondo;
+    box-shadow: $buscador-sombra;
+}
+
+.buscador__linea-oscuro {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 1194px;
+    height: 24px;
+    color: $blanco;
+    font-family: $family-letra;
+    font-size: $size14;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    .linea--buscar {
+        margin-left: 3px;
+    }
+}
+
+#buscador__input {
+    position: absolute;
+    top: 39px;
+    left: 15px;
+    bottom: 12px;
+    right: 128px;
+    width: 1057px;
+    height: 43px;
+    background-color: $blanco;
+    font-family: $family-letra;
+    font-size: $size16;
+    border: 1px solid $gris-oscuro;
+    box-shadow: inset -2px -2px 0 0 $color-fondo, inset 2px 2px 0 0 $negro;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.buscador__simbolos-oscuro {
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 36px;
+    margin-left: 3px;
+    position: absolute;
+    bottom: 18px;
+    left: 1080px;
+    right: 16px;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    &:hover {
+        cursor: pointer;
+        border: 1px dotted #110038;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    }
+    &:active {
+        .simbolos__contenedor {
+            display: flex;
+            align-items: center;
+            width: 98px;
+            height: 32px;
+            border: 1px dotted #110038;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+    }
+    .simbolos__contenedor {
+        display: flex;
+        align-items: center;
+    }
+    .buscador__simbolos--letras-oscuro {
+        font-size: $size16;
+        color: $gris;
+        font-family: $family-letra;
+    }
+    .buscador__simbolos--lupa-oscuro {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}

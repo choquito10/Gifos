@@ -1,0 +1,51 @@
+#contenedor-opcionesBuscar {
+    width: 1200px;
+    height: 160px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-top: 99px;
+    z-index: 10;
+    display: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+#opcionesBuscar__A {
+    width: 1055px;
+    height: 34px;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    margin: 17px 129px 11px 16px;
+    background: #F0F0F0;
+    #A__texto {
+        font-family: $family-letra;
+        font-size: $size16;
+        color: $azul;
+        margin: 6px 0px 6px 15px;
+    }
+}
+
+#opcionesBuscar__B {
+    width: 1055px;
+    height: 34px;
+    margin: 0px 129px 11px 16px;
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    #B__texto {
+        @extend #A__texto;
+        font-family: $family-letra;
+        margin: 6px 0px 6px 16px;
+    }
+}
+
+#opcionesBuscar__C {
+    @extend #opcionesBuscar__B;
+    margin: 0px 129px 16px 16px;
+    #C__texto {
+        @extend #A__texto;
+        font-family: $family-letra;
+        margin: 7px 0px 7px 16px;
+    }
+}

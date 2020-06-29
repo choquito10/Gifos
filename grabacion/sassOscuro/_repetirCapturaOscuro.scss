@@ -1,0 +1,131 @@
+#contenedor-repetirGifos {
+    display: none;
+    position: relative;
+    padding-top: 2px;
+    margin: 85px 0px 85px 265px;
+    width: 860px;
+    height: 548px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.repetirGifos__linea-oscuro {
+    display: flex;
+    align-items: center;
+    width: 854px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    margin-left: 3px;
+    #linea__repetir {
+        font-family: 'Chakra Petch';
+        font-size: $size14;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        margin-left: 4px;
+    }
+}
+
+#repetirGifos__foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 838px;
+    height: 440px;
+    margin-left: 8px;
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    #videoDeRepetirCapturar {
+        width: 836px;
+        height: 438px;
+    }
+}
+
+#repetirGifos__opciones {
+    display: flex;
+    align-items: center;
+    #opciones__repetirReloj {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 21px;
+        margin-left: 11px;
+        width: 124px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    }
+    .opciones__play-oscuro {
+        display: flex;
+        justify-content: center;
+        margin: 20px 4px 0px 24px;
+        width: 20px;
+        height: 20px;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    #opciones__barraCarga {
+        display: flex;
+        margin-top: 20px;
+        width: 240px;
+        height: 24px;
+        background: #B4B4B4;
+        box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+        .cuadrito-1-oscuro {
+            width: 12px;
+            height: 20px;
+            margin: 2px 1px 0px 1px;
+            background-color: #EE3EFE;
+        }
+    }
+    .opciones__repetirGifo-oscuro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 21px 14px 0px 115px;
+        width: 144px;
+        height: 36px;
+        border: 1px solid #B4B4B4;
+        background: #110038;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+        font-family: 'Chakra Petch';
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 18px;
+        &:hover {
+            cursor: pointer;
+            #cuadricula__repetir {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 140px;
+                height: 32px;
+                border: 1px dotted #FFFFFF;
+            }
+        }
+    }
+    .opciones__subirGifo-oscuro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 21px;
+        width: 144px;
+        height: 36px;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        color: #FFFFFF;
+        font-family: 'Chakra Petch';
+        font-size: 16px;
+        line-height: 18px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

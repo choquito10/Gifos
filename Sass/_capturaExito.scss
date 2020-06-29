@@ -1,0 +1,129 @@
+#contenedor-capturaExito {
+    display: none;
+    position: relative;
+    padding-top: 2px;
+    margin-top: 85px;
+    margin-left: 360px;
+    width: 721px;
+    height: 391px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.capturaExito__linea-claro {
+    display: flex;
+    align-items: center;
+    width: 715px;
+    height: 24px;
+    margin-left: 3px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    #textoExito {
+        margin-left: 4px;
+        font-family: 'Chakra Petch';
+        font-size: $size14;
+        color: #FFFFFF;
+        letter-spacing: 0;
+    }
+    #closeExito {
+        position: absolute;
+        right: 4px;
+        width: 16px;
+        height: 14px;
+    }
+}
+
+#capturaExito__foto {
+    position: absolute;
+    top: 54px;
+    left: 24px;
+    width: 371px;
+    height: 196px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    #videoDeCapturaConExito {
+        width: 366px;
+        height: 193px;
+        margin: 2px 2px 2px 3px;
+    }
+}
+
+#capturaExito__letras {
+    position: absolute;
+    top: 76px;
+    right: 129px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+#opciones__copiar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 114px;
+    right: 46px;
+    width: 256px;
+    height: 36px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    &:hover {
+        cursor: pointer;
+    }
+    #copiar__letra {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: $size16;
+        color: #110038;
+        line-height: 18px;
+    }
+}
+
+#opciones__descargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 164px;
+    right: 46px;
+    width: 256px;
+    height: 36px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    &:hover {
+        cursor: pointer;
+    }
+    #descargar__letra {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: $size16;
+        color: #110038;
+        line-height: 18px;
+    }
+}
+
+.capturaExito__listo-claro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 311px;
+    right: 46px;
+    width: 144px;
+    height: 36px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    &:hover {
+        cursor: pointer;
+    }
+    #listo__letra {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: $size16;
+        color: #110038;
+        line-height: 18px;
+    }
+}

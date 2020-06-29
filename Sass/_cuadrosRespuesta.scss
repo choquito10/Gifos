@@ -1,0 +1,40 @@
+#contenedor-respuestaBusqueda {
+    display: none;
+    grid-template-columns: 288px 288px 288px 288px;
+    grid-template-rows: 300px 300px 300px;
+    margin: 0px 140px 0px 100px;
+    grid-gap: 16px;
+}
+
+#busqueda-1,
+#busqueda-2,
+#busqueda-3,
+#busqueda-4,
+#busqueda-6,
+#busqueda-7,
+#busqueda-8,
+#busqueda-9 {
+    &:hover {
+        border: 1px dotted #110038;
+        width: 286px;
+        height: 296px;
+    }
+}
+
+#busqueda-5 {
+    grid-column: 1/3;
+    &:hover {
+        border: 1px dotted #110038;
+        width: 592px;
+        height: 296px;
+    }
+}
+
+#busqueda-10 {
+    grid-column: 3/5;
+    &:hover {
+        border: 1px dotted #110038;
+        width: 592px;
+        height: 296px;
+    }
+}

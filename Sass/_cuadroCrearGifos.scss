@@ -1,0 +1,96 @@
+#contenedor-crearGifos {
+    display: flex;
+    position: relative;
+    margin-top: 78px;
+    margin-left: 378px;
+    padding-top: 2px;
+    width: 684px;
+    height: 386px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 382px;
+}
+
+.crearGifos__linea-claro {
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    width: 678px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    #linea__texto {
+        margin-left: 4px;
+        color: #FFFFFF;
+        font-size: $size14;
+        font-family: $family-letra;
+    }
+}
+
+#crearGifos__logo {
+    position: absolute;
+    top: 57px;
+    left: 25px;
+}
+
+#crearGifos__titulo {
+    position: absolute;
+    top: 57px;
+    left: 73px;
+    font-family: 'Chakra Petch';
+    font-size: $size16;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+#crearGifos__textoPrincipal {
+    width: 518px;
+    height: 190px;
+    position: absolute;
+    top: 96px;
+    left: 73px;
+    font-family: 'Chakra Petch';
+    font-size: $size14;
+    color: #110038;
+    line-height: 20px;
+    .spanes {
+        margin-bottom: 10px;
+    }
+}
+
+#crearGifos__opciones {
+    position: absolute;
+    bottom: 36px;
+    right: 36px;
+    display: flex;
+    font-family: 'Chakra Petch';
+    font-size: $size16;
+    color: #110038;
+    #opciones__cancelar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 144px;
+        height: 36px;
+        margin-right: 16px;
+        background: #FFF4FD;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .opciones__comenzar-claro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 144px;
+        height: 36px;
+        background: #F7C9F3;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+#contenedorCuadrosDeEjemplo {
+    display: none;
+    margin: -52px 0px 54px 100px;
+    &:hover {
+        cursor: pointer;
+    }
+    .unEjemplo-claro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 34px;
+        margin-right: 8px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        color: #FFFFFF;
+        font-family: 'ChakraPetch', sans-serif;
+        font-size: 14px;
+    }
+    .unEjemploMasLargo-claro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 154px;
+        height: 34px;
+        margin-right: 8px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        color: #FFFFFF;
+        font-family: 'ChakraPetch', sans-serif;
+        font-size: 14px;
+    }
+    .tagsRelacionados-claro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 34px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+        color: #FFFFFF;
+        font-family: 'ChakraPetch', sans-serif;
+        font-size: 14px;
+    }
+}

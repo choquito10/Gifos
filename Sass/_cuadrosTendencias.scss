@@ -1,0 +1,95 @@
+#contenedor-tendencias {
+    display: grid;
+    grid-template-columns: 288px 288px 288px 288px;
+    grid-template-rows: 300px 300px 300px;
+    margin: 0px 140px 10px 100px;
+    grid-gap: 16px;
+}
+
+#tendencia-1 {
+    position: relative;
+    width: 288px;
+    height: 298px;
+    &:hover {
+        width: 294px;
+        height: 304px;
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+        .rayos {
+            display: flex;
+            position: absolute;
+            width: 286px;
+            height: 296px;
+            border: 1px dotted #110038;
+            top: 3px;
+            right: 3px;
+            bottom: 3px;
+            left: 3px;
+        }
+        .hoversiño-claro {
+            display: flex;
+            position: absolute;
+            bottom: 0px;
+            width: 286px;
+            height: 20px;
+            background-image: $gradiente-buscador;
+            color: #FFFFFF;
+            font-family: $family-letra;
+        }
+    }
+    .rayos {
+        display: none;
+    }
+    .hoversiño-claro {
+        display: none;
+    }
+}
+
+#tendencia-2,
+#tendencia-3,
+#tendencia-4,
+#tendencia-6,
+#tendencia-7,
+#tendencia-8,
+#tendencia-9 {
+    @extend #tendencia-1;
+}
+
+#tendencia-5 {
+    display: grid;
+    grid-column: 1/3;
+    &:hover {
+        border: 1px dotted #110038;
+        width: 592px;
+        height: 296px;
+    }
+}
+
+#tendencia-10 {
+    display: grid;
+    grid-column: 3/5;
+    &:hover {
+        border: 1px dotted #110038;
+        width: 592px;
+        height: 296px;
+    }
+}
+
+#tende-1,
+#tende-2,
+#tende-3,
+#tende-4,
+#tende-6,
+#tende-7,
+#tende-8,
+#tende-9 {
+    width: 288px;
+    height: 298px;
+    margin: 2px;
+}
+
+#tende-5,
+#tende-10 {
+    width: 100%;
+    height: 100%;
+}

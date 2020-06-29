@@ -1,0 +1,89 @@
+.buscador {
+    position: relative;
+    display: flex;
+    margin: 0px 140px 64px 100px;
+    width: 1200px;
+    height: 99px;
+    background: $color-fondo;
+    box-shadow: $buscador-sombra;
+}
+
+.buscador__linea-claro {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 1194px;
+    height: 24px;
+    color: $blanco;
+    font-family: $family-letra;
+    font-size: $size14;
+    background-image: $gradiente-buscador;
+    .linea--buscar {
+        margin-left: 3px;
+    }
+}
+
+#buscador__input {
+    position: absolute;
+    top: 39px;
+    left: 15px;
+    bottom: 12px;
+    right: 128px;
+    width: 1057px;
+    height: 43px;
+    background-color: $blanco;
+    font-family: $family-letra;
+    font-size: $size16;
+    border: 1px solid $gris-oscuro;
+    box-shadow: inset -2px -2px 0 0 $color-fondo, inset 2px 2px 0 0 $negro;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.buscador__simbolos-claro {
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 36px;
+    margin-left: 3px;
+    position: absolute;
+    bottom: 18px;
+    left: 1080px;
+    right: 16px;
+    background: $color-fondo;
+    border: 1px solid $gris-intermedio;
+    box-shadow: inset -1px -1px 0 0 $gris, inset 1px 1px 0 0 $blanco;
+    color: #110038;
+    &:hover {
+        cursor: pointer;
+        background: #F7C9F3;
+        border: 1px dotted #110038;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    }
+    &:active {
+        .simbolos__contenedor {
+            display: flex;
+            align-items: center;
+            border: 1px dotted #110038;
+            width: 98px;
+            height: 32px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+    }
+    .simbolos__contenedor {
+        display: flex;
+    }
+    .buscador__simbolos--letras-claro {
+        font-size: $size16;
+        color: $gris;
+        font-family: $family-letra;
+    }
+    .buscador__simbolos--lupa-claro {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}

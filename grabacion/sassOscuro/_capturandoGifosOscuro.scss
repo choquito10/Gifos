@@ -1,0 +1,94 @@
+#contenedor-capturandoGifos {
+    display: none;
+    position: relative;
+    padding-top: 2px;
+    margin: 85px 0px 85px 265px;
+    width: 860px;
+    height: 548px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.capturandoGifos__linea-oscuro {
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    width: 854px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    #linea__textico {
+        font-family: 'Chakra Petch';
+        font-size: $size14;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        margin-left: 4px;
+    }
+    #linea__close {
+        position: absolute;
+        right: 12px;
+        width: 16px;
+        height: 14px;
+    }
+}
+
+#capturandoGifos__foto {
+    width: 838px;
+    height: 440px;
+    margin-left: 8px;
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#capturandoGifos__opciones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    #opciones__reloj {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 11px;
+        width: 124px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #979797;
+        box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    }
+    #opciones__contenedorInterno {
+        display: flex;
+        margin-right: 13px;
+    }
+    #opciones__tuerca {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        margin-right: 1px;
+        background: #FF6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    #opciones__listo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 144px;
+        height: 36px;
+        background: #FF6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+        font-family: 'Chakra Petch';
+        font-size: $size16;
+        color: #FFFFFF;
+        line-height: 18px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

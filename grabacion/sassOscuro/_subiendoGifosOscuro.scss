@@ -1,0 +1,111 @@
+#contenedor-subirGifos {
+    display: none;
+    position: relative;
+    padding-top: 2px;
+    margin-top: 69px;
+    margin-left: 265px;
+    width: 860px;
+    height: 548px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.subirGifos__linea-oscuro {
+    display: flex;
+    align-items: center;
+    width: 854px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    margin-left: 3px;
+    #linea__subir {
+        font-family: 'Chakra Petch';
+        font-size: $size14;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        margin-left: 4px;
+    }
+    #linea__xCerrar {
+        position: absolute;
+        right: 12px;
+        width: 16px;
+        height: 14px;
+    }
+}
+
+#subirGifos__foto {
+    position: relative;
+    width: 838px;
+    height: 440px;
+    margin-left: 8px;
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    #globo-tierra {
+        position: absolute;
+        top: 139px;
+        left: 398px;
+    }
+    #foto__textoSubida {
+        position: absolute;
+        top: 195px;
+        left: 314.5px;
+        width: 216px;
+        height: 22px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+        color: #110038;
+        line-height: 22px;
+    }
+    #foto__barraCarga {
+        display: flex;
+        position: absolute;
+        top: 256px;
+        left: 257px;
+        width: 324px;
+        height: 24px;
+        background: #B4B4B4;
+        box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+        .cuadrito-1-oscuro {
+            width: 12px;
+            height: 20px;
+            background-color: #EE3EFE;
+            margin: 2px 1px 2px 1px;
+        }
+    }
+    #foto__tiempoRestante {
+        position: absolute;
+        top: 288px;
+        left: 302.5px;
+        width: 233px;
+        height: 14px;
+        font-family: 'Chakra Petch';
+        font-size: 12px;
+        color: rgba(17, 0, 56, 0.64);
+        line-height: 14px;
+        #raya-enmedio {
+            text-decoration: line-through;
+        }
+    }
+}
+
+#subirGifos__cancelacion {
+    position: absolute;
+    right: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 36px;
+    margin-top: 21px;
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: $size16;
+    color: #110038;
+    line-height: 18px;
+    &:hover {
+        cursor: pointer;
+    }
+}

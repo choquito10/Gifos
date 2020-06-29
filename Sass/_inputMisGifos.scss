@@ -1,0 +1,33 @@
+.contenedorInput-Gifos-claro {
+    display: none;
+    align-items: center;
+    width: 1196px;
+    height: 28px;
+    margin: 35px 140px 16px 100px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    #Gifos_InputMisGifos-texto {
+        margin-left: 7px;
+        font-family: $family-letra;
+        font-size: $size14;
+        color: $azul;
+    }
+}
+
+.contenedorInput-Gifos2-claro {
+    display: flex;
+    align-items: center;
+    width: 1196px;
+    height: 28px;
+    margin: 153px 140px 16px 100px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    #Gifos_InputMisGifos-texto2 {
+        margin-left: 7px;
+        font-family: $family-letra;
+        font-size: $size14;
+        color: $azul;
+    }
+}

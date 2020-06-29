@@ -1,0 +1,135 @@
+.contenedor-sugerencias {
+    display: flex;
+    height: 313px;
+    margin: 0px 140px 64px 100px;
+}
+
+.sugerencias__cuadro1-claro {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 313px;
+    margin-right: 16px;
+    background: $color-fondo;
+    box-shadow: inset -2px -2px 0 0 $gris, inset 2px 2px 0 0 $blanco;
+    .cuadro1__A-claro {
+        display: flex;
+        align-items: center;
+        position: relative;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        color: #FFFFFF;
+        width: 280px;
+        height: 24px;
+        margin: 3px 4px 2px 4px;
+        background-image: $gradiente-buscador;
+    }
+    .cuadro1__A--x {
+        position: absolute;
+        bottom: 5px;
+        right: 4px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    #cuadro1__B {
+        position: relative;
+        width: 280px;
+        height: 280px;
+        margin: 0px 4px 4px 4px;
+        &:hover {
+            border: 1px dotted #110038;
+            width: 278px;
+            height: 278px;
+            .bordes-verMas {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 75px;
+                height: 28px;
+                margin: 3px 3px 3px 3px;
+                border: 1px dotted #110038;
+            }
+        }
+    }
+    .cuadro1__B--verMas {
+        position: absolute;
+        bottom: 15px;
+        left: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 81px;
+        height: 34px;
+        background: $azul-claro;
+        border: 1px solid $morado;
+        box-shadow: inset -2px -2px 0 0 $azul-opaco, inset 2px 2px 0 0 $blanco;
+        color: $blanco;
+        font-family: $family-letra;
+        font-size: $size14;
+        &:hover {
+            cursor: pointer;
+        }
+        #verMas-1 {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.sugerencias__cuadro2-claro {
+    @extend .sugerencias__cuadro1-claro;
+    .cuadro2__A-claro {
+        @extend .cuadro1__A-claro;
+    }
+    .cuadro2__A--x {
+        @extend .cuadro1__A--x;
+    }
+    #cuadro2__B {
+        @extend #cuadro1__B;
+    }
+    #verMas-2 {
+        @extend #verMas-1;
+    }
+    .cuadro2__B--verMas {
+        @extend .cuadro1__B--verMas;
+    }
+}
+
+.sugerencias__cuadro3-claro {
+    @extend .sugerencias__cuadro1-claro;
+    .cuadro3__A {
+        @extend .cuadro1__A-claro;
+    }
+    .cuadro3__A--x {
+        @extend .cuadro1__A--x;
+    }
+    #cuadro3__B {
+        @extend #cuadro1__B;
+    }
+    #verMas-3 {
+        @extend #verMas-1;
+    }
+    #cuadro3__B--verMas {
+        @extend .cuadro1__B--verMas;
+    }
+}
+
+.sugerencias__cuadro4-claro {
+    @extend .sugerencias__cuadro1-claro;
+    .cuadro4__A {
+        @extend .cuadro1__A-claro;
+    }
+    .cuadro4__A--x {
+        @extend .cuadro1__A--x;
+    }
+    #cuadro4__B {
+        @extend #cuadro1__B;
+    }
+    #verMas-4 {
+        @extend #verMas-1;
+    }
+    .cuadro4__B--verMas {
+        @extend .cuadro1__B--verMas;
+    }
+}

@@ -1,0 +1,1748 @@
+@charset "UTF-8";
+.linea-gradiante-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  margin-bottom: 35px;
+  height: 23px;
+  width: 1438px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  -webkit-box-shadow: 0 1px 0 0 #110038;
+          box-shadow: 0 1px 0 0 #110038;
+}
+
+.linea-gradiante-oscuro .linea-gradiante__texto {
+  font-family: "Chakra Petch";
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 7px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 83.33vw;
+  height: 64px;
+  margin: 59px 9.7vw 16px 6.9vw;
+}
+
+.header .header__contenedor1 {
+  cursor: pointer;
+}
+
+.header .header__contenedor2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+}
+
+.header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 83.33vw;
+  height: 64px;
+  margin: 59px 9.7vw 16px 6.9vw;
+}
+
+.header2 .flecha__volver {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-left: -37.9px;
+  margin-right: 7px;
+  margin-top: 13px;
+}
+
+.header2 .flecha__volver:hover {
+  cursor: pointer;
+}
+
+.header2 .header__contenedor1B {
+  cursor: pointer;
+}
+
+.header__crear-oscuro, .header__elegir-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 36px;
+  background-color: #EE3EFE;
+  font-family: "Chakra Petch";
+  color: #FFFFFF;
+  font-size: 16px;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.header__crear-oscuro .anclaje-otraPagina-oscuro, .header__elegir-oscuro .anclaje-otraPagina-oscuro {
+  text-decoration: none;
+  font-family: "Chakra Petch";
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.header__crear-oscuro:hover, .header__elegir-oscuro:hover {
+  cursor: pointer;
+}
+
+.header__crear-oscuro:hover .anclaje-otraPagina-oscuro, .header__elegir-oscuro:hover .anclaje-otraPagina-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 30px;
+  border: 1px dotted #110038;
+  margin: 2px 2px 2px 2px;
+}
+
+.header__elegir-oscuro {
+  margin-left: 16px;
+}
+
+.header__elegir-oscuro:hover .elegir__subrayado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 30px;
+  border: 1px dotted #110038;
+  margin: 2px 2px 2px 2px;
+}
+
+.header__down-oscuro {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #EE3EFE;
+  height: 36px;
+  width: 36px;
+  margin-right: 16px;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.header__down-oscuro:hover {
+  cursor: pointer;
+}
+
+.header__down-oscuro:hover .down__subrayado {
+  border: 1px dotted #110038;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 32px;
+  height: 30px;
+  margin: 2px 2px 2px 2px;
+}
+
+.header__down-oscuro .down__subrayado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.header__down-oscuro .drop-oscuro {
+  display: none;
+  position: absolute;
+  top: 37px;
+  right: -1px;
+  width: 184px;
+  height: 102px;
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+  z-index: 10;
+}
+
+.header__down-oscuro .drop-oscuro .drop__claro-oscuro {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 36px;
+  margin: 8px 10px 8px 18px;
+  font-family: "Chakra Petch";
+  color: #110038;
+  font-size: 16px;
+  background: #CCCCCC;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.header__down-oscuro .drop-oscuro .drop__claro-oscuro:hover {
+  cursor: pointer;
+}
+
+.header__down-oscuro .drop-oscuro .drop__claro-oscuro .sailor-day {
+  margin-right: 55px;
+}
+
+.header__down-oscuro .drop-oscuro .drop__claro-oscuro .day-rayita-oscuro {
+  display: none;
+  position: absolute;
+  top: 27px;
+  left: 11px;
+  width: 8px;
+  height: 2px;
+  background-color: #110038;
+}
+
+.header__down-oscuro .drop-oscuro .drop__oscuro-oscuro {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 36px;
+  font-family: "Chakra Petch";
+  font-size: 16px;
+  margin: 0px 10px 10px 18px;
+  background: #2E32FB;
+  border: 1px solid rgba(51, 53, 143, 0.2);
+  -webkit-box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.header__down-oscuro .drop-oscuro .drop__oscuro-oscuro .sailor-night {
+  margin-right: 44px;
+  border: none;
+}
+
+.header__down-oscuro .drop-oscuro .drop__oscuro-oscuro .night-rayita-oscuro {
+  position: absolute;
+  top: 27px;
+  left: 11px;
+  width: 8px;
+  height: 2px;
+  background-color: #FFFFFF;
+}
+
+.header__gifos {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 76px;
+  height: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__gifos:hover {
+  cursor: pointer;
+}
+
+.header__gifos:hover .gifos__subrayado-oscuro {
+  border: 1px dotted #FFFFFF;
+  width: 95px;
+  height: 32px;
+  color: #FFFFFF;
+}
+
+.header__gifos:hover .gifos--rayita-oscuro {
+  position: absolute;
+  top: 28px;
+  left: 1px;
+  width: 10px;
+  height: 2px;
+  background-color: #FFFFFF;
+}
+
+.header__gifos .gifos__subrayado-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Chakra Petch";
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.buscador {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 140px 64px 100px;
+  width: 1200px;
+  height: 99px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.buscador__linea-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 1194px;
+  height: 24px;
+  color: #FFFFFF;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.buscador__linea-oscuro .linea--buscar {
+  margin-left: 3px;
+}
+
+#buscador__input {
+  position: absolute;
+  top: 39px;
+  left: 15px;
+  bottom: 12px;
+  right: 128px;
+  width: 1057px;
+  height: 43px;
+  background-color: #FFFFFF;
+  font-family: "Chakra Petch";
+  font-size: 16px;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#buscador__input:hover {
+  cursor: pointer;
+}
+
+.buscador__simbolos-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 102px;
+  height: 36px;
+  margin-left: 3px;
+  position: absolute;
+  bottom: 18px;
+  left: 1080px;
+  right: 16px;
+  border: 1px solid #808080;
+  -webkit-box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.buscador__simbolos-oscuro:hover {
+  cursor: pointer;
+  border: 1px dotted #110038;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.buscador__simbolos-oscuro:active .simbolos__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 98px;
+  height: 32px;
+  border: 1px dotted #110038;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.buscador__simbolos-oscuro .simbolos__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buscador__simbolos-oscuro .buscador__simbolos--letras-oscuro {
+  font-size: 16px;
+  color: #B4B4B4;
+  font-family: "Chakra Petch";
+}
+
+.buscador__simbolos-oscuro .buscador__simbolos--lupa-oscuro {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.contenedor__inputSugerencias-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1196px;
+  height: 28px;
+  margin: 0px 140px 16px 100px;
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.contenedor__inputSugerencias-oscuro .inputSugerencias__texto {
+  margin-left: 7px;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  color: #110038;
+}
+
+.contenedor-sugerencias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 313px;
+  margin: 0px 140px 64px 100px;
+}
+
+.sugerencias__cuadro1-oscuro, .sugerencias__cuadro2-oscuro, .sugerencias__cuadro3-oscuro, .sugerencias__cuadro4-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 288px;
+  height: 313px;
+  margin-right: 16px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sugerencias__cuadro1-oscuro .cuadro1__A-oscuro, .sugerencias__cuadro2-oscuro .cuadro1__A-oscuro, .sugerencias__cuadro3-oscuro .cuadro1__A-oscuro, .sugerencias__cuadro4-oscuro .cuadro1__A-oscuro, .sugerencias__cuadro2-oscuro .cuadro2__A-oscuro, .sugerencias__cuadro3-oscuro .cuadro3__A-oscuro, .sugerencias__cuadro4-oscuro .cuadro4__A-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 280px;
+  height: 24px;
+  margin: 3px 4px 2px 4px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.sugerencias__cuadro1-oscuro .cuadro1__A--x, .sugerencias__cuadro2-oscuro .cuadro1__A--x, .sugerencias__cuadro3-oscuro .cuadro1__A--x, .sugerencias__cuadro4-oscuro .cuadro1__A--x, .sugerencias__cuadro2-oscuro .cuadro2__A--x, .sugerencias__cuadro3-oscuro .cuadro3__A--x, .sugerencias__cuadro4-oscuro .cuadro4__A--x {
+  position: absolute;
+  bottom: 5px;
+  right: 4px;
+}
+
+.sugerencias__cuadro1-oscuro #cuadro1__B, .sugerencias__cuadro2-oscuro #cuadro1__B, .sugerencias__cuadro3-oscuro #cuadro1__B, .sugerencias__cuadro4-oscuro #cuadro1__B, .sugerencias__cuadro2-oscuro #cuadro2__B, .sugerencias__cuadro3-oscuro #cuadro3__B, .sugerencias__cuadro4-oscuro #cuadro4__B {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 0px 4px 4px 4px;
+}
+
+.sugerencias__cuadro1-oscuro #cuadro1__B:hover, .sugerencias__cuadro2-oscuro #cuadro1__B:hover, .sugerencias__cuadro3-oscuro #cuadro1__B:hover, .sugerencias__cuadro4-oscuro #cuadro1__B:hover, .sugerencias__cuadro2-oscuro #cuadro2__B:hover, .sugerencias__cuadro3-oscuro #cuadro3__B:hover, .sugerencias__cuadro4-oscuro #cuadro4__B:hover {
+  border: 1px dotted #110038;
+  width: 278px;
+  height: 278px;
+}
+
+.sugerencias__cuadro1-oscuro #cuadro1__B:hover .bordes-verMas, .sugerencias__cuadro2-oscuro #cuadro1__B:hover .bordes-verMas, .sugerencias__cuadro3-oscuro #cuadro1__B:hover .bordes-verMas, .sugerencias__cuadro4-oscuro #cuadro1__B:hover .bordes-verMas, .sugerencias__cuadro2-oscuro #cuadro2__B:hover .bordes-verMas, .sugerencias__cuadro3-oscuro #cuadro3__B:hover .bordes-verMas, .sugerencias__cuadro4-oscuro #cuadro4__B:hover .bordes-verMas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75px;
+  height: 28px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted #110038;
+}
+
+.sugerencias__cuadro1-oscuro #cuadro1__B:hover .cuadro1__B--verMas, .sugerencias__cuadro2-oscuro #cuadro1__B:hover .cuadro1__B--verMas, .sugerencias__cuadro3-oscuro #cuadro1__B:hover .cuadro1__B--verMas, .sugerencias__cuadro4-oscuro #cuadro1__B:hover .cuadro1__B--verMas, .sugerencias__cuadro2-oscuro #cuadro2__B:hover .cuadro1__B--verMas, .sugerencias__cuadro3-oscuro #cuadro3__B:hover .cuadro1__B--verMas, .sugerencias__cuadro4-oscuro #cuadro4__B:hover .cuadro1__B--verMas, .sugerencias__cuadro1-oscuro #cuadro1__B:hover .sugerencias__cuadro2-oscuro .cuadro2__B--verMas, .sugerencias__cuadro2-oscuro #cuadro1__B:hover .cuadro2__B--verMas, .sugerencias__cuadro3-oscuro #cuadro1__B:hover .sugerencias__cuadro2-oscuro .cuadro2__B--verMas, .sugerencias__cuadro4-oscuro #cuadro1__B:hover .sugerencias__cuadro2-oscuro .cuadro2__B--verMas, .sugerencias__cuadro2-oscuro #cuadro2__B:hover .cuadro2__B--verMas, .sugerencias__cuadro3-oscuro .sugerencias__cuadro2-oscuro #cuadro3__B:hover .cuadro2__B--verMas, .sugerencias__cuadro3-oscuro #cuadro3__B:hover .sugerencias__cuadro2-oscuro .cuadro2__B--verMas, .sugerencias__cuadro2-oscuro .sugerencias__cuadro3-oscuro #cuadro3__B:hover .cuadro2__B--verMas, .sugerencias__cuadro4-oscuro .sugerencias__cuadro2-oscuro #cuadro4__B:hover .cuadro2__B--verMas, .sugerencias__cuadro4-oscuro #cuadro4__B:hover .sugerencias__cuadro2-oscuro .cuadro2__B--verMas, .sugerencias__cuadro2-oscuro .sugerencias__cuadro4-oscuro #cuadro4__B:hover .cuadro2__B--verMas, .sugerencias__cuadro1-oscuro #cuadro1__B:hover .sugerencias__cuadro3-oscuro .cuadro3__B--verMas, .sugerencias__cuadro2-oscuro #cuadro1__B:hover .sugerencias__cuadro3-oscuro .cuadro3__B--verMas, .sugerencias__cuadro3-oscuro #cuadro1__B:hover .cuadro3__B--verMas, .sugerencias__cuadro4-oscuro #cuadro1__B:hover .sugerencias__cuadro3-oscuro .cuadro3__B--verMas, .sugerencias__cuadro2-oscuro #cuadro2__B:hover .sugerencias__cuadro3-oscuro .cuadro3__B--verMas, .sugerencias__cuadro3-oscuro .sugerencias__cuadro2-oscuro #cuadro2__B:hover .cuadro3__B--verMas, .sugerencias__cuadro2-oscuro .sugerencias__cuadro3-oscuro #cuadro2__B:hover .cuadro3__B--verMas, .sugerencias__cuadro3-oscuro #cuadro3__B:hover .cuadro3__B--verMas, .sugerencias__cuadro4-oscuro .sugerencias__cuadro3-oscuro #cuadro4__B:hover .cuadro3__B--verMas, .sugerencias__cuadro4-oscuro #cuadro4__B:hover .sugerencias__cuadro3-oscuro .cuadro3__B--verMas, .sugerencias__cuadro3-oscuro .sugerencias__cuadro4-oscuro #cuadro4__B:hover .cuadro3__B--verMas, .sugerencias__cuadro1-oscuro #cuadro1__B:hover .sugerencias__cuadro4-oscuro .cuadro4__B--verMas, .sugerencias__cuadro2-oscuro #cuadro1__B:hover .sugerencias__cuadro4-oscuro .cuadro4__B--verMas, .sugerencias__cuadro3-oscuro #cuadro1__B:hover .sugerencias__cuadro4-oscuro .cuadro4__B--verMas, .sugerencias__cuadro4-oscuro #cuadro1__B:hover .cuadro4__B--verMas, .sugerencias__cuadro2-oscuro #cuadro2__B:hover .sugerencias__cuadro4-oscuro .cuadro4__B--verMas, .sugerencias__cuadro4-oscuro .sugerencias__cuadro2-oscuro #cuadro2__B:hover .cuadro4__B--verMas, .sugerencias__cuadro2-oscuro .sugerencias__cuadro4-oscuro #cuadro2__B:hover .cuadro4__B--verMas, .sugerencias__cuadro3-oscuro #cuadro3__B:hover .sugerencias__cuadro4-oscuro .cuadro4__B--verMas, .sugerencias__cuadro4-oscuro .sugerencias__cuadro3-oscuro #cuadro3__B:hover .cuadro4__B--verMas, .sugerencias__cuadro3-oscuro .sugerencias__cuadro4-oscuro #cuadro3__B:hover .cuadro4__B--verMas, .sugerencias__cuadro4-oscuro #cuadro4__B:hover .cuadro4__B--verMas {
+  cursor: pointer;
+  background: #2629CC;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sugerencias__cuadro1-oscuro .cuadro1__B--verMas, .sugerencias__cuadro2-oscuro .cuadro1__B--verMas, .sugerencias__cuadro3-oscuro .cuadro1__B--verMas, .sugerencias__cuadro4-oscuro .cuadro1__B--verMas, .sugerencias__cuadro2-oscuro .cuadro2__B--verMas, .sugerencias__cuadro3-oscuro .cuadro3__B--verMas, .sugerencias__cuadro4-oscuro .cuadro4__B--verMas {
+  position: absolute;
+  bottom: 15px;
+  left: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 81px;
+  height: 34px;
+  color: #FFFFFF;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  background: #2E32FB;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sugerencias__cuadro1-oscuro .cuadro1__B--verMas:hover, .sugerencias__cuadro2-oscuro .cuadro1__B--verMas:hover, .sugerencias__cuadro3-oscuro .cuadro1__B--verMas:hover, .sugerencias__cuadro4-oscuro .cuadro1__B--verMas:hover, .sugerencias__cuadro2-oscuro .cuadro2__B--verMas:hover, .sugerencias__cuadro3-oscuro .cuadro3__B--verMas:hover, .sugerencias__cuadro4-oscuro .cuadro4__B--verMas:hover {
+  cursor: pointer;
+}
+
+.sugerencias__cuadro1-oscuro .cuadro1__B--verMas #verMas-1, .sugerencias__cuadro2-oscuro .cuadro1__B--verMas #verMas-1, .sugerencias__cuadro3-oscuro .cuadro1__B--verMas #verMas-1, .sugerencias__cuadro4-oscuro .cuadro1__B--verMas #verMas-1, .sugerencias__cuadro2-oscuro .cuadro2__B--verMas #verMas-1, .sugerencias__cuadro3-oscuro .cuadro3__B--verMas #verMas-1, .sugerencias__cuadro4-oscuro .cuadro4__B--verMas #verMas-1, .sugerencias__cuadro1-oscuro .cuadro1__B--verMas .sugerencias__cuadro2-oscuro #verMas-2, .sugerencias__cuadro2-oscuro .cuadro1__B--verMas #verMas-2, .sugerencias__cuadro3-oscuro .cuadro1__B--verMas .sugerencias__cuadro2-oscuro #verMas-2, .sugerencias__cuadro4-oscuro .cuadro1__B--verMas .sugerencias__cuadro2-oscuro #verMas-2, .sugerencias__cuadro2-oscuro .cuadro2__B--verMas #verMas-2, .sugerencias__cuadro3-oscuro .sugerencias__cuadro2-oscuro .cuadro3__B--verMas #verMas-2, .sugerencias__cuadro3-oscuro .cuadro3__B--verMas .sugerencias__cuadro2-oscuro #verMas-2, .sugerencias__cuadro2-oscuro .sugerencias__cuadro3-oscuro .cuadro3__B--verMas #verMas-2, .sugerencias__cuadro4-oscuro .sugerencias__cuadro2-oscuro .cuadro4__B--verMas #verMas-2, .sugerencias__cuadro4-oscuro .cuadro4__B--verMas .sugerencias__cuadro2-oscuro #verMas-2, .sugerencias__cuadro2-oscuro .sugerencias__cuadro4-oscuro .cuadro4__B--verMas #verMas-2, .sugerencias__cuadro1-oscuro .cuadro1__B--verMas .sugerencias__cuadro3-oscuro #verMas-3, .sugerencias__cuadro2-oscuro .cuadro1__B--verMas .sugerencias__cuadro3-oscuro #verMas-3, .sugerencias__cuadro3-oscuro .cuadro1__B--verMas #verMas-3, .sugerencias__cuadro4-oscuro .cuadro1__B--verMas .sugerencias__cuadro3-oscuro #verMas-3, .sugerencias__cuadro2-oscuro .cuadro2__B--verMas .sugerencias__cuadro3-oscuro #verMas-3, .sugerencias__cuadro3-oscuro .sugerencias__cuadro2-oscuro .cuadro2__B--verMas #verMas-3, .sugerencias__cuadro2-oscuro .sugerencias__cuadro3-oscuro .cuadro2__B--verMas #verMas-3, .sugerencias__cuadro3-oscuro .cuadro3__B--verMas #verMas-3, .sugerencias__cuadro4-oscuro .sugerencias__cuadro3-oscuro .cuadro4__B--verMas #verMas-3, .sugerencias__cuadro4-oscuro .cuadro4__B--verMas .sugerencias__cuadro3-oscuro #verMas-3, .sugerencias__cuadro3-oscuro .sugerencias__cuadro4-oscuro .cuadro4__B--verMas #verMas-3, .sugerencias__cuadro1-oscuro .cuadro1__B--verMas .sugerencias__cuadro4-oscuro #verMas-4, .sugerencias__cuadro2-oscuro .cuadro1__B--verMas .sugerencias__cuadro4-oscuro #verMas-4, .sugerencias__cuadro3-oscuro .cuadro1__B--verMas .sugerencias__cuadro4-oscuro #verMas-4, .sugerencias__cuadro4-oscuro .cuadro1__B--verMas #verMas-4, .sugerencias__cuadro2-oscuro .cuadro2__B--verMas .sugerencias__cuadro4-oscuro #verMas-4, .sugerencias__cuadro4-oscuro .sugerencias__cuadro2-oscuro .cuadro2__B--verMas #verMas-4, .sugerencias__cuadro2-oscuro .sugerencias__cuadro4-oscuro .cuadro2__B--verMas #verMas-4, .sugerencias__cuadro3-oscuro .cuadro3__B--verMas .sugerencias__cuadro4-oscuro #verMas-4, .sugerencias__cuadro4-oscuro .sugerencias__cuadro3-oscuro .cuadro3__B--verMas #verMas-4, .sugerencias__cuadro3-oscuro .sugerencias__cuadro4-oscuro .cuadro3__B--verMas #verMas-4, .sugerencias__cuadro4-oscuro .cuadro4__B--verMas #verMas-4 {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.contenedor__inputTendencias-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1196px;
+  height: 28px;
+  margin: 0px 140px 16px 100px;
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.contenedor__inputTendencias-oscuro #inputTendencias__texto {
+  margin-left: 7px;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  color: #110038;
+}
+
+#contenedor-crearGifos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-top: 78px;
+  margin-left: 378px;
+  padding-top: 2px;
+  width: 684px;
+  height: 386px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  margin-left: 382px;
+}
+
+.crearGifos__linea-oscuro {
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 678px;
+  height: 24px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.crearGifos__linea-oscuro #linea__texto {
+  margin-left: 4px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Chakra Petch";
+}
+
+#crearGifos__logo {
+  position: absolute;
+  top: 57px;
+  left: 25px;
+}
+
+#crearGifos__titulo {
+  position: absolute;
+  top: 57px;
+  left: 73px;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+#crearGifos__textoPrincipal {
+  width: 518px;
+  height: 190px;
+  position: absolute;
+  top: 96px;
+  left: 73px;
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  color: #110038;
+  line-height: 20px;
+}
+
+#crearGifos__textoPrincipal .spanes {
+  margin-bottom: 10px;
+}
+
+#crearGifos__opciones {
+  position: absolute;
+  bottom: 36px;
+  right: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  color: #110038;
+}
+
+#crearGifos__opciones #opciones__cancelar {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 36px;
+  margin-right: 16px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+#crearGifos__opciones #opciones__cancelar:hover {
+  cursor: pointer;
+}
+
+#crearGifos__opciones .opciones__comenzar-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 36px;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+#crearGifos__opciones .opciones__comenzar-oscuro:hover {
+  cursor: pointer;
+}
+
+#contenedor-capturarGifos {
+  display: none;
+  position: relative;
+  padding-top: 2px;
+  margin: 85px 0px 85px 265px;
+  width: 860px;
+  height: 548px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.capturarGifos__linea-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 854px;
+  height: 24px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  margin-left: 3px;
+}
+
+.capturarGifos__linea-oscuro #linea__escrito {
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-left: 4px;
+}
+
+.capturarGifos__linea-oscuro #linea__cerrar {
+  position: absolute;
+  right: 12px;
+  width: 16px;
+  height: 14px;
+}
+
+#capturarGifos__foto {
+  width: 838px;
+  height: 440px;
+  margin-left: 8px;
+  margin-top: 8px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#capturarGifos__opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 21px;
+  margin-right: 13px;
+}
+
+#capturarGifos__opciones .opciones__camara-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 1px;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#capturarGifos__opciones .opciones__camara-oscuro:hover {
+  cursor: pointer;
+}
+
+#capturarGifos__opciones .opciones__texto-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 36px;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+#capturarGifos__opciones .opciones__texto-oscuro:hover {
+  cursor: pointer;
+}
+
+#contenedor-capturandoGifos {
+  display: none;
+  position: relative;
+  padding-top: 2px;
+  margin: 85px 0px 85px 265px;
+  width: 860px;
+  height: 548px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.capturandoGifos__linea-oscuro {
+  margin-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 854px;
+  height: 24px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.capturandoGifos__linea-oscuro #linea__textico {
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-left: 4px;
+}
+
+.capturandoGifos__linea-oscuro #linea__close {
+  position: absolute;
+  right: 12px;
+  width: 16px;
+  height: 14px;
+}
+
+#capturandoGifos__foto {
+  width: 838px;
+  height: 440px;
+  margin-left: 8px;
+  margin-top: 8px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#capturandoGifos__opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 21px;
+}
+
+#capturandoGifos__opciones #opciones__reloj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 11px;
+  width: 124px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#capturandoGifos__opciones #opciones__contenedorInterno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 13px;
+}
+
+#capturandoGifos__opciones #opciones__tuerca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 1px;
+  background: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#capturandoGifos__opciones #opciones__tuerca:hover {
+  cursor: pointer;
+}
+
+#capturandoGifos__opciones #opciones__listo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 36px;
+  background: #FF6161;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 18px;
+}
+
+#capturandoGifos__opciones #opciones__listo:hover {
+  cursor: pointer;
+}
+
+#contenedor-repetirGifos {
+  display: none;
+  position: relative;
+  padding-top: 2px;
+  margin: 85px 0px 85px 265px;
+  width: 860px;
+  height: 548px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.repetirGifos__linea-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 854px;
+  height: 24px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  margin-left: 3px;
+}
+
+.repetirGifos__linea-oscuro #linea__repetir {
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-left: 4px;
+}
+
+#repetirGifos__foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 838px;
+  height: 440px;
+  margin-left: 8px;
+  margin-top: 8px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#repetirGifos__foto #videoDeRepetirCapturar {
+  width: 836px;
+  height: 438px;
+}
+
+#repetirGifos__opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#repetirGifos__opciones #opciones__repetirReloj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 21px;
+  margin-left: 11px;
+  width: 124px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#repetirGifos__opciones .opciones__play-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 4px 0px 24px;
+  width: 20px;
+  height: 20px;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#repetirGifos__opciones .opciones__play-oscuro:hover {
+  cursor: pointer;
+}
+
+#repetirGifos__opciones #opciones__barraCarga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  width: 240px;
+  height: 24px;
+  background: #B4B4B4;
+  -webkit-box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+          box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+}
+
+#repetirGifos__opciones #opciones__barraCarga .cuadrito-1-oscuro {
+  width: 12px;
+  height: 20px;
+  margin: 2px 1px 0px 1px;
+  background-color: #EE3EFE;
+}
+
+#repetirGifos__opciones .opciones__repetirGifo-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 21px 14px 0px 115px;
+  width: 144px;
+  height: 36px;
+  border: 1px solid #B4B4B4;
+  background: #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+          box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 18px;
+}
+
+#repetirGifos__opciones .opciones__repetirGifo-oscuro:hover {
+  cursor: pointer;
+}
+
+#repetirGifos__opciones .opciones__repetirGifo-oscuro:hover #cuadricula__repetir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 32px;
+  border: 1px dotted #FFFFFF;
+}
+
+#repetirGifos__opciones .opciones__subirGifo-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 21px;
+  width: 144px;
+  height: 36px;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#repetirGifos__opciones .opciones__subirGifo-oscuro:hover {
+  cursor: pointer;
+}
+
+#contenedor-subirGifos {
+  display: none;
+  position: relative;
+  padding-top: 2px;
+  margin-top: 69px;
+  margin-left: 265px;
+  width: 860px;
+  height: 548px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.subirGifos__linea-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 854px;
+  height: 24px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  margin-left: 3px;
+}
+
+.subirGifos__linea-oscuro #linea__subir {
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-left: 4px;
+}
+
+.subirGifos__linea-oscuro #linea__xCerrar {
+  position: absolute;
+  right: 12px;
+  width: 16px;
+  height: 14px;
+}
+
+#subirGifos__foto {
+  position: relative;
+  width: 838px;
+  height: 440px;
+  margin-left: 8px;
+  margin-top: 8px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#subirGifos__foto #globo-tierra {
+  position: absolute;
+  top: 139px;
+  left: 398px;
+}
+
+#subirGifos__foto #foto__textoSubida {
+  position: absolute;
+  top: 195px;
+  left: 314.5px;
+  width: 216px;
+  height: 22px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  line-height: 22px;
+}
+
+#subirGifos__foto #foto__barraCarga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 256px;
+  left: 257px;
+  width: 324px;
+  height: 24px;
+  background: #B4B4B4;
+  -webkit-box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+          box-shadow: inset 2px 2px 0 0 #FFFCFC, inset -2px -2px 0 0 #000000;
+}
+
+#subirGifos__foto #foto__barraCarga .cuadrito-1-oscuro {
+  width: 12px;
+  height: 20px;
+  background-color: #EE3EFE;
+  margin: 2px 1px 2px 1px;
+}
+
+#subirGifos__foto #foto__tiempoRestante {
+  position: absolute;
+  top: 288px;
+  left: 302.5px;
+  width: 233px;
+  height: 14px;
+  font-family: 'Chakra Petch';
+  font-size: 12px;
+  color: rgba(17, 0, 56, 0.64);
+  line-height: 14px;
+}
+
+#subirGifos__foto #foto__tiempoRestante #raya-enmedio {
+  text-decoration: line-through;
+}
+
+#subirGifos__cancelacion {
+  position: absolute;
+  right: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 36px;
+  margin-top: 21px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  line-height: 18px;
+}
+
+#subirGifos__cancelacion:hover {
+  cursor: pointer;
+}
+
+#contenedor-capturaExito {
+  display: none;
+  position: relative;
+  padding-top: 2px;
+  margin-top: 85px;
+  margin-left: 360px;
+  width: 721px;
+  height: 391px;
+  background: #E6E6E6;
+  -webkit-box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.capturaExito__linea-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 715px;
+  height: 24px;
+  margin-left: 3px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.capturaExito__linea-oscuro #textoExito {
+  margin-left: 4px;
+  font-family: 'Chakra Petch';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.capturaExito__linea-oscuro #closeExito {
+  position: absolute;
+  right: 4px;
+  width: 16px;
+  height: 14px;
+}
+
+#capturaExito__foto {
+  position: absolute;
+  top: 54px;
+  left: 24px;
+  width: 371px;
+  height: 196px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+          box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#capturaExito__foto #videoDeCapturaConExito {
+  width: 366px;
+  height: 193px;
+  margin: 2px 2px 2px 3px;
+}
+
+#capturaExito__letras {
+  position: absolute;
+  top: 76px;
+  right: 129px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+#opciones__copiar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 114px;
+  right: 46px;
+  width: 256px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#opciones__copiar:hover {
+  cursor: pointer;
+}
+
+#opciones__copiar #copiar__letra {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  line-height: 18px;
+}
+
+#opciones__descargar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 164px;
+  right: 46px;
+  width: 256px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#opciones__descargar:hover {
+  cursor: pointer;
+}
+
+#opciones__descargar #descargar__letra {
+  text-decoration: none;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  line-height: 18px;
+}
+
+.capturaExito__listo-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 311px;
+  right: 46px;
+  width: 144px;
+  height: 36px;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  -webkit-box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+          box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  color: #FFFFFF;
+}
+
+.capturaExito__listo-oscuro:hover {
+  cursor: pointer;
+}
+
+.capturaExito__listo-oscuro #listo__letra {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.contenedorInput-Gifos-oscuro {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1196px;
+  height: 28px;
+  margin: 35px 140px 16px 100px;
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.contenedorInput-Gifos-oscuro #Gifos_InputMisGifos-texto {
+  margin-left: 7px;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  color: #110038;
+}
+
+.contenedorInput-Gifos2-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1196px;
+  height: 28px;
+  margin: 153px 140px 16px 100px;
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.contenedorInput-Gifos2-oscuro #Gifos_InputMisGifos-texto2 {
+  margin-left: 7px;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  color: #110038;
+}
+
+.contenedor__inputRespuestas-oscuro {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1196px;
+  height: 28px;
+  margin: 0px 140px 16px 100px;
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  -webkit-box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+          box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.contenedor__inputRespuestas-oscuro #inputRespuestas__texto {
+  margin-left: 7px;
+  font-family: "Chakra Petch";
+  font-size: 14px;
+  color: #110038;
+}
+
+#contenedor-tendencias {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 288px 288px 288px 288px;
+      grid-template-columns: 288px 288px 288px 288px;
+  -ms-grid-rows: 300px 300px 300px;
+      grid-template-rows: 300px 300px 300px;
+  margin: 0px 140px 10px 100px;
+  grid-gap: 16px;
+}
+
+#tendencia-1, #tendencia-2,
+#tendencia-3,
+#tendencia-4,
+#tendencia-6,
+#tendencia-7,
+#tendencia-8,
+#tendencia-9 {
+  position: relative;
+  width: 288px;
+  height: 298px;
+}
+
+#tendencia-1:hover, #tendencia-2:hover,
+#tendencia-3:hover,
+#tendencia-4:hover,
+#tendencia-6:hover,
+#tendencia-7:hover,
+#tendencia-8:hover,
+#tendencia-9:hover {
+  width: 294px;
+  height: 304px;
+  background: #B4B4B4;
+  -webkit-box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#tendencia-1:hover .rayos, #tendencia-2:hover .rayos, #tendencia-3:hover .rayos, #tendencia-4:hover .rayos, #tendencia-6:hover .rayos, #tendencia-7:hover .rayos, #tendencia-8:hover .rayos, #tendencia-9:hover .rayos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 286px;
+  height: 296px;
+  border: 1px dotted #110038;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+}
+
+#tendencia-1:hover .hoversiño-oscuro, #tendencia-2:hover .hoversiño-oscuro, #tendencia-3:hover .hoversiño-oscuro, #tendencia-4:hover .hoversiño-oscuro, #tendencia-6:hover .hoversiño-oscuro, #tendencia-7:hover .hoversiño-oscuro, #tendencia-8:hover .hoversiño-oscuro, #tendencia-9:hover .hoversiño-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 286px;
+  height: 20px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#EE3EFE), to(#2E32FB));
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  background-color: red;
+  color: #FFFFFF;
+  font-family: "Chakra Petch";
+}
+
+#tendencia-1 .rayos, #tendencia-2 .rayos, #tendencia-3 .rayos, #tendencia-4 .rayos, #tendencia-6 .rayos, #tendencia-7 .rayos, #tendencia-8 .rayos, #tendencia-9 .rayos {
+  display: none;
+}
+
+#tendencia-1 .hoversiño-claro, #tendencia-2 .hoversiño-claro, #tendencia-3 .hoversiño-claro, #tendencia-4 .hoversiño-claro, #tendencia-6 .hoversiño-claro, #tendencia-7 .hoversiño-claro, #tendencia-8 .hoversiño-claro, #tendencia-9 .hoversiño-claro {
+  display: none;
+}
+
+#tendencia-5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+#tendencia-5:hover {
+  border: 1px dotted #110038;
+  width: 592px;
+  height: 296px;
+}
+
+#tendencia-10 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+}
+
+#tendencia-10:hover {
+  border: 1px dotted #110038;
+  width: 592px;
+  height: 296px;
+}
+
+#contenedorCuadrosDeEjemplo {
+  display: none;
+  margin: -52px 0px 54px 100px;
+}
+
+#contenedorCuadrosDeEjemplo:hover {
+  cursor: pointer;
+}
+
+#contenedorCuadrosDeEjemplo .unEjemplo-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 34px;
+  margin-right: 8px;
+  background: #2E32FB;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'ChakraPetch', sans-serif;
+}
+
+#contenedorCuadrosDeEjemplo .unEjemploMasLargo-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 154px;
+  height: 34px;
+  margin-right: 8px;
+  background: #2E32FB;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'ChakraPetch', sans-serif;
+}
+
+#contenedorCuadrosDeEjemplo .tagsRelacionados-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 34px;
+  background: #2E32FB;
+  border: 1px solid #4C2F99;
+  -webkit-box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+          box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'ChakraPetch', sans-serif;
+}
+
+#contenedor-respuestaMisGifos-oscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 16px 130px 10px 105px;
+}
+/*# sourceMappingURL=styleOscuro.css.map */

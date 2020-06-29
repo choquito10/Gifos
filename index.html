@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grabacion/styleOscuro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
+
+    <title> GIFOS</title>
+
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <div id="linea-gradiante">
+            <div id="linea-gradiante__texto" class="linea-gradiante__texto">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</div>
+        </div>
+
+        <div id="header__contenedor1" class="header__contenedor1">
+            <img src="assetscopy/gifOF_logo.png" alt="logo" id="logo__principal">
+        </div>
+
+        <div id="header__contenedor2" class="header__contenedor2">
+            <div id="header__crear" class="header__crear-claro">
+                <a href="grabacion/creargifos.html" id="anclaje-otraPagina" class="anclaje-otraPagina-claro"> Crear Gifos</a>
+            </div>
+
+            <div id="header__elegir">
+                <div id="elegir__subrayado" class="elegir__subrayado"> Elegir tema</div>
+            </div>
+
+            <div id="header__down">
+
+                <div id="down__subrayado" class="down__subrayado">
+
+                    <img src="assetscopy/dropdown.svg" alt="flecha" id="flecha-abajo">
+
+                </div>
+
+                <div id="drop" class="drop-claro">
+
+                    <div id="drop__claro">
+
+                        <span id="sailor-day" class="sailor-day">Sailor Day</span>
+                        <div id="day-rayita" class="day-rayita-claro"></div>
+
+                    </div>
+
+                    <div id="drop__oscuro" class="drop__oscuro-claro">
+
+                        <span id="sailor-night" class="sailor-night">Sailor Night</span>
+                        <div id="night-rayita" class="night-rayita-claro"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div id="header__gifos" class="header__gifos">
+
+                <div id="gifos__subrayado" class="gifos__subrayado-claro">Mis Gifos</div>
+                <div id="gifos--rayita" class="gifos--rayita-claro"></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <!-- aqui empieza la caja -->
+
+
+
+    <div id="buscador" class="buscador">
+
+
+        <div id="buscador__linea" class="buscador__linea-claro">
+
+            <div id="linea--buscar" class="linea--buscar">Buscar</div>
+
+        </div>
+
+        <input type="text" placeholder="   Busca gifs, hashtags, temas, busca lo que quieras…" id="buscador__input">
+
+        <div id="buscador__simbolos" class="buscador__simbolos-claro">
+
+            <div id="simbolos__contenedor" class="simbolos__contenedor">
+
+                <img src="assetscopy/lupa_inactive.svg" alt="lupa" id="buscador__simbolos--lupa" class="buscador__simbolos--lupa-claro">
+                <div id="buscador__simbolos--letras" class="buscador__simbolos--letras-claro">Buscar</div>
+
+            </div>
+
+
+        </div>
+
+        <div id="contenedor-opcionesBuscar">
+
+            <div id="opcionesBuscar__A">
+
+                <div id="A__texto"> Messi</div>
+
+            </div>
+
+            <div id="opcionesBuscar__B">
+
+                <div id="B__texto"> Cristiano Ronaldo</div>
+
+            </div>
+
+            <div id="opcionesBuscar__C">
+
+                <div id="C__texto">Quasicrystals</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- aqui empieza los tres cuadros de los ejemplos de busqueda -->
+
+
+    <div id="contenedorCuadrosDeEjemplo">
+
+        <div id="unEjemplo"></div>
+        <div id="unEjemploMasLargo"></div>
+        <div id="tagsRelacionados"></div>
+
+    </div>
+
+
+
+
+    <!-- aqui empieza el input de las sugerencias  -->
+
+
+
+    <div id="contenedor__inputSugerencias" class="contenedor__inputSugerencias-claro">
+
+        <div id="inputSugerencias__texto" class="inputSugerencias__texto">Hoy te sugerimos:</div>
+
+    </div>
+
+
+
+    <!-- aqui empieza los cuadros de sugerencias -->
+
+    <div id="contenedor-sugerencias" class="contenedor-sugerencias">
+
+
+        <div id="sugerencias__cuadro1" class="sugerencias__cuadro1-claro">
+
+            <div id="cuadro1__A" class="cuadro1__A-claro">
+                <div>
+
+                    <span id="nombreGifoSugerencias-1"></span>
+                    <img src="assetscopy/button3.svg" alt="cerrar" id="cuadro1__A--x" class="cuadro1__A--x">
+
+
+
+                </div>
+            </div>
+
+            <div id="cuadro1__B">
+
+                <img src='data' id='suge-1' alt="sugerencia">
+
+                <div id="cuadro1__B--verMas" class="cuadro1__B--verMas">
+
+                    <div class="bordes-verMas">
+                        <a href="" id="verMas-1" target="blanket">Ver más...</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div id="sugerencias__cuadro2" class="sugerencias__cuadro2-claro">
+
+            <div id="cuadro2__A" class="cuadro2__A-claro">
+
+                <div>
+                    <span id="nombreGifoSugerencias-2"></span>
+                    <img src="assetscopy/button3.svg" alt="cerrar" id="cuadro2__A--x" class="cuadro2__A--x">
+
+                </div>
+
+            </div>
+            <div id="cuadro2__B">
+
+                <img src='data' id='suge-2' alt="sugerencia">
+
+                <div id="cuadro2__B--verMas" class="cuadro2__B--verMas">
+
+                    <div class="bordes-verMas">
+                        <a href="" id="verMas-2" target="blanket">Ver más...</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="sugerencias__cuadro3" class="sugerencias__cuadro3-claro">
+
+            <div id="cuadro3__A" class="cuadro3__A-claro">
+
+                <div>
+                    <span id="nombreGifoSugerencias-3"></span>
+                    <img src="assetscopy/button3.svg" alt="cerrar" id="cuadro3__A--x" class="cuadro3__A--x">
+
+                </div>
+
+            </div>
+            <div id="cuadro3__B">
+
+                <img src='data' id='suge-3' alt="sugerencia">
+
+                <div id="cuadro3__B--verMas" class="cuadro3__B--verMas">
+
+                    <div class="bordes-verMas">
+                        <a href="" id="verMas-3" target="blanket">Ver más...</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div id="sugerencias__cuadro4" class="sugerencias__cuadro4-claro">
+
+            <div id="cuadro4__A" class="cuadro4__A-claro">
+
+                <div>
+                    <span id="nombreGifoSugerencias-4"></span>
+                    <img src="assetscopy/button3.svg" alt="cerrar" id="cuadro4__A--x" class="cuadro4__A--x">
+
+                </div>
+
+            </div>
+            <div id="cuadro4__B">
+
+                <img src='data' id='suge-4' alt="sugerencia">
+
+                <div id="cuadro4__B--verMas" class="cuadro4__B--verMas">
+
+                    <div class="bordes-verMas">
+                        <a href="" id="verMas-4" target="blanket">Ver más...</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- aqui el input tendencias -->
+
+
+    <div id="contenedor__inputTendencias" class="contenedor__inputTendencias-claro">
+
+        <div id="inputTendencias__texto">Tendencias:</div>
+
+    </div>
+
+
+    <!--  aqui cuadros de las tendencias -->
+
+
+
+    <div id="contenedor-tendencias">
+
+        <div id="tendencia-1">
+
+            <img src='data' id='tende-1' alt="tendencia">
+
+            <div class="rayos">
+
+                <div id="hoversiño-1" class="hoversiño-claro"></div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div id="tendencia-2">
+
+            <img src='data' id='tende-2' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-2" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-3">
+
+            <img src='data' id='tende-3' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-3" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-4">
+
+            <img src='data' id='tende-4' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-4" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-5">
+
+            <img src='data' id='tende-5' alt="tendencia">
+
+
+        </div>
+
+        <div id="tendencia-6">
+
+            <img src='data' id='tende-6' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-5" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-7">
+
+            <img src='data' id='tende-7' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-6" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-8">
+
+            <img src='data' id='tende-8' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-7" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-9">
+
+            <img src='data' id='tende-9' alt="tendencia">
+
+
+            <div class="rayos">
+
+                <div id="hoversiño-8" class="hoversiño-claro"></div>
+
+            </div>
+        </div>
+
+        <div id="tendencia-10">
+
+            <img src='data' id='tende-10' alt="tendencia">
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- aqui es el input de mis gifos -->
+
+
+    <div id="contenedorInput-Gifos" class="contenedorInput-Gifos-claro">
+
+        <div id="Gifos_InputMisGifos-texto">Mis Guifos:</div>
+
+    </div>
+
+
+    <!-- aqui es el contenedor de mis gifos -->
+
+    <div id="contenedor-respuestaMisGifos-claro"> </div>
+
+
+
+    <!-- aqui es el input de respuestas -->
+
+    <div id="contenedor__inputRespuestas" class="contenedor__inputRespuestas-claro">
+
+        <div id="inputRespuestas__texto">Resultados de Busqueda:</div>
+
+    </div>
+
+
+    <!-- aqui es el contenedor de respuestas -->
+
+    <div id="contenedor-respuestaBusqueda">
+
+
+        <div id="busqueda-1"><img src='data' id="busqueda-11" alt="foto"></div>
+        <div id="busqueda-2"><img src='data' id="busqueda-12" alt="foto"></div>
+        <div id="busqueda-3"><img src='data' id="busqueda-13" alt="foto"></div>
+        <div id="busqueda-4"><img src='data' id="busqueda-14" alt="foto"></div>
+
+        <div id="busqueda-5"><img src='data' id="busqueda-15" alt="foto"></div>
+        <div id="busqueda-6"><img src='data' id="busqueda-16" alt="foto"></div>
+        <div id="busqueda-7"><img src='data' id="busqueda-17" alt="foto"></div>
+
+        <div id="busqueda-8"><img src='data' id="busqueda-18" alt="foto"></div>
+        <div id="busqueda-9"><img src='data' id="busqueda-19" alt="foto"></div>
+        <div id="busqueda-10"><img src='data' id="busqueda-20" alt="foto"></div>
+
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
