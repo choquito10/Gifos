@@ -62,6 +62,7 @@ let DuracionDelGifoMiliSegundos = 0;
 let m;
 let s;
 let ms;
+let calculoBarraPequeñaTiempo = 0;
 
 const EmpiezaTodaLaCaptura = document.getElementById('opciones__comenzar').addEventListener('click', () => {
     InstanciaRecord()
@@ -143,12 +144,14 @@ function Cronometro() {
 const GifoGrabado = document.getElementById('opciones__listo').addEventListener('click', () => {
 
     stream.stop();
+    calculoBarraPequeñaTiempo = ((s * 1000) + (16.6666 * ms)).toFixed(0);
+    let timer = calculoBarraPequeñaTiempo / 10;
+    console.log('timer', timer)
     document.getElementById('contenedor-capturandoGifos').style.display = 'none';
     document.getElementById('contenedor-repetirGifos').style.display = 'block';
     document.getElementById('opciones__repetirReloj').innerHTML = m + ':' + s + ':' + ms;
     recorder.stopRecording(callbackStopRecording);
-    IntervaloBarraPequeña();
-
+    IntervaloBarraPequeña(timer);
 
 })
 
@@ -164,7 +167,7 @@ function callbackStopRecording() {
 
 let incrementadorDeBarraPequeña = 1;
 
-function IntervaloBarraPequeña() {
+function IntervaloBarraPequeña(timer) {
 
     let intervalo = setInterval(() => {
 
@@ -182,7 +185,9 @@ function IntervaloBarraPequeña() {
         }
         incrementadorDeBarraPequeña++;
 
-    }, 100);
+
+
+    }, timer);
 }
 
 
